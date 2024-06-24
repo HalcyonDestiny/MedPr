@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+    <body>
+        <p>
+            {% if question.content %}
+                {{ question.content }}1
+            {% endif %}
+        </p>
+        {% if question.image %}
+            <img src="{{ question.image.url }}">1
+        {% endif %}
+
+        {% if question.video %}
+            {{ question.video }}1
+        {% endif %}
+    </body>
+</html>
