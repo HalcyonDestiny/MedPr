@@ -1,0 +1,55 @@
+body {
+    background-color: #00008B; /* Темно-синий фон */
+    height: 100vh;
+    padding: 25px;
+}
+p {
+    color: #FFD700;
+    margin: auto;
+}
+
+button {
+  color: white;
+  background: white;
+  padding: 1.2rem 2rem;
+  cursor: pointer;
+  user-select: none;
+  border: none;
+  outline: none;
+  transition: background 9999999s;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+}
+
+button:active {
+  background: white;
+    color: black;
+    transition: background 0s;
+    font-size: 44px;
+}
+
+.box {
+    margin: auto;
+    width: 70%;
+    font-size: 72px;
+    text-align: center;
+}
+
+.btn {
+    --bs-btn-font-size: 3rem;
+}
+
+#btn-back {
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+}
+
+#video {
+    height: 90%;
+}
+
+img {
+    width: 65%;
+}
